@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import { EXPERT, IMAGES } from './constants';
-import Quiz from './components/Quiz';
-import ResultPage from './components/ResultPage';
-import LandingPage from './components/LandingPage';
+import { EXPERT, IMAGES } from './constants.ts';
+import Quiz from './components/Quiz.tsx';
+import ResultPage from './components/ResultPage.tsx';
+import LandingPage from './components/LandingPage.tsx';
 import { ChevronRight, MessageCircle, Sparkles } from 'lucide-react';
 
 const App: React.FC = () => {

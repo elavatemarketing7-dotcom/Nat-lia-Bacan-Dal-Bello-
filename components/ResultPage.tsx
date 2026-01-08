@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { EXPERT, IMAGES } from '../constants';
+import { EXPERT, IMAGES } from '../constants.ts';
 import { CheckCircle2, MessageCircle, ArrowRight, Sparkles } from 'lucide-react';
 
 interface ResultPageProps {

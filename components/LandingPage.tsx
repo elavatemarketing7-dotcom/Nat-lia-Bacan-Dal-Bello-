@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { EXPERT, IMAGES } from '../constants';
+import { EXPERT, IMAGES } from '../constants.ts';
 import { 
   MessageCircle, 
   MapPin, 

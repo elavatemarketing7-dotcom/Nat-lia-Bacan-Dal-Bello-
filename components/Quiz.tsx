@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { EXPERT, QUIZ_QUESTIONS, IMAGES } from '../constants';
+import { EXPERT, QUIZ_QUESTIONS, IMAGES } from '../constants.ts';
 import { ChevronRight, ArrowLeft, Sparkles } from 'lucide-react';
 
 interface QuizProps {
