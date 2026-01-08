@@ -89,10 +89,7 @@ const LandingPage: React.FC = () => {
             >
               <source src={EXPERT.videoHero} type="video/mp4" />
             </video>
-            <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center justify-center w-12 h-12 bg-white/30 backdrop-blur-md rounded-full">
-              <Play className="w-5 h-5 text-white fill-current" />
-            </div>
+            <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
           </div>
           
           <div className="flex flex-col gap-6">
